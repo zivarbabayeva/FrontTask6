@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    padding: 15px 66px;
+    background-color: #f8f9fa;
+    overflow: auto;
+}
+
+#header .left h5 {
+    color: rgba(37, 36, 36, 0.6);
+    font-size: 1.25rem;
+    float: left;
+}
+
+#header .right button {
+    color: #ffffff;
+    background-color: #0D6EFD;
+    padding: 12px 16px;
+    border-radius: 6px;
+    border: #0D6EFD;
+    cursor: pointer;
+    margin-left: 30px;
+    float: right;
+}
+
+#content {
+    background-image: url(/image/bg-masthead.jpg);
+    background-position: center;
+}
+
+#content .first {
+    color: #ffffff;
+    margin: 10px 10px 48px;
+    text-align: center;
+    padding: 7rem;
+    line-height: 1.2;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+
+#content .left {
+    display: flex;
+    justify-content: center;
+    padding: 36px 30px;
+}
+
+#content input {
+
+    border-radius: 6px;
+    border-color: #fff;
+    padding: 20px 20rem 20px 15px;
+
+    margin: 20px;
+}
+
+#content button {
+    background-color: #0061f2;
+    border-radius: 6px;
+    border-color: #0061f2;
+    padding: 20px 40px 20px 20px;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+}
+
+#icon .all {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 13px;
+}
+
+#icon .all i {
+    color: #0d6efd;
+    font-size: 4.5rem;
+    margin: 0 9rem;
+}
+
+#icon .all h3 {
+    margin-top: 63px;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+#icon .all p {
+    color: #212529;
+    font: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+
+#icon .all .right i {
+    border: 1px;
+    border-color: #0061f2;
+}
+
+#photo .all {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+#photo .all .left {
+    width: 50%;
+    padding: 7rem;
+
+}
+
+#photo .left p {
+    font-size: 1.25rem;
+    padding-bottom: 9px;
+    color: #212529;
+
+}
+
+#photo .right {
+    width: 50%;
+}
+
+#photo .right img {
+    width: 100%;
+}
+
+#photo .left h2 {
+    font-size: 28px;
+}
+
+#people .all-people {
+    background-color: #f8f9fa;
+    width: 100%;
+    text-align: center;
+    padding: 7rem;
+    margin: auto;
+}
+
+#people .all-people .head h1 {
+    text-align: center;
+    font-size: 33px;
+    color: #212529;
+    padding: 0 0 5rem 0;
+}
+
+#people .all-photo {
+    width: 100%;
+    display: flex;
+    justify-content: space-a;
+}
+
+#people .photo img {
+    width: 33%;
+    border-radius: 50%;
+    box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+
+#people .all-people h4 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 20px;
+}
+
+#people .all-people .photo p {
+    width: 100%;
+    text-align: center;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+#bottom-content {
+    background-image: url(/image/bg-masthead.jpg);
+    background-position: center;
+    height: 30%;
+}
+
+#bottom-content .first {
+    color: #ffff;
+    margin: 10px 10px 48px;
+    text-align: center;
+    padding: 7rem;
+    line-height: 1.2;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+#bottom-content .left {
+    display: flex;
+    justify-content: center;
+}
+
+#bottom-content input {
+    border-radius: 6px;
+    border-color: #fff;
+    padding: 20px 20rem 20px 15px;
+    margin: 20px;
+}
+
+#bottom-content button {
+    background-color: #0061f2;
+    border-radius: 6px;
+    border-color: #0061f2;
+    padding: 20px 40px 20px 20px;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+}
